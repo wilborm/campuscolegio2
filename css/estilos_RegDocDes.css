@@ -1,0 +1,112 @@
+
+body{
+    margin: 0;
+}
+body{
+    background-image: url('../img/fondo.PNG');
+  }
+h1{
+    color: #fff;
+}
+.DatosAlumno{
+    margin-top: 10px;
+    padding: 3px 10px;
+    border: PowderBlue 5px dashed;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.datosEspecificos{
+    margin-top: 20px;
+    padding: 3px 10px;
+    border: PowderBlue 5px dashed;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.datosApoderados{
+    margin-top: 20px;
+    padding: 3px 10px;
+    border: PowderBlue 5px dashed;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.form-registro{
+    width: 98%;
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    border-radius: 7px; 
+}
+.DatosAlumno{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.datosEspecificos{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.datosApoderados{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+input{
+    margin-bottom: 10px;
+    padding: 7px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+}
+.input-50{
+width: 48%;
+
+}
+.input-100{
+    width: 100%;
+}
+#Edad{
+    width: 50px;
+    margin-right: 35px;
+}
+.LB1{
+    margin-top: 14px;
+}
+
+.Genero{
+    margin-left: auto;
+    margin-right: auto;
+}
+#CentrarFecha{
+    text-align: center;
+}
+
+.btn-enviar{
+    background: crimson;
+    color: #fff;
+    display: flex;
+    margin-top: 20px;
+    padding: 10px 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-enviar:hover{
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.btn-reset:hover{
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.btn-reset{
+    display: flex;
+    padding: 10px 40px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="sweetalert2.js"></script>
+    <link rel="stylesheet" href="sweetalert2.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="registro.php" method="post" class="form-iniciosesion" onsubmit="return validarFormulario()">
+        <h1 class="Form-Letras">Login</h1>
+        
+    <div class="contenedor-inputs">
+        
+        <label for="fechaNacimiento" class="LB1">Fecha de Nacimiento:</label>
+        <input type="text" name="email" class="input-50" id="NombreAlumno">
+
+        <input type="password" id="Contraseña" name="contra" placeholder="Contraseña" required class="input-50">
+        <input type="submit" value="Iniciar" class="btn-enviar" >              
+    </div>
+  </form>
+  <script src="Validacion.js"></script>
+</body>
+</html>

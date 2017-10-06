@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+body{
+    background-image: url('../img/fondo.PNG');
+  }
+.Titulo1{
+    top: 40px;
+    right: 90px;
+    position: relative;
+}
+.Lista1{
+
+}
+.AgregarP h2{
+    right: 200px;
+    position: relative;
+}
+.AgregarP{
+    width: 98%;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    background: white;
+    border-radius: 7px;
+    bottom: 300px; 
+}
+.AgregarG h2{
+    right: 200px;
+    position: relative;
+}
+.AgregarG{
+    width: 98%;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    background: white;
+    border-radius: 7px;
+    bottom: 300px; 
+}
+
+
+
+.ContenedorMayor{
+    padding: 10px 30px;
+}
+input{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+}
+.input-50{
+    width: 100%;
+    margin-right: 100%;
+    margin-bottom: 10px;
+}
+.btn-enviar{
+    background: deepskyblue;
+    color: #fff;
+    display: flex;
+    margin: auto;
+    padding: 8px 40px;
+}
+.btn-enviar:hover{
+    box-shadow: 0 4px 16px rgba(192, 47, 66, 0.58);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.form-link{
+    width: 100%;
+    margin: 7px;
+    text-align: center;
+    font-size: 14px;
+}
