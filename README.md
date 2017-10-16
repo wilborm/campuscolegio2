@@ -171,15 +171,33 @@ Si se ha entrado como un usuario registrado como docente, podrá acceder a todas
 * HTML5
 * CSS
 * JavaScript
-
-## Lenguaje de Programación: 
-* XP
+* PHP
+* MySQL
 ## Metodología
 * XP
+## Video Explicativo:
+https://www.youtube.com/watch?v=H0bDK39xjBU
 ## Cómo acceder al proyecto
 Si se desea observar el proyecto en ejecución, mediante Heroku hemos desplegado la aplicación en el siguiente enlace:
-
 https://iejesusmaestro.herokuapp.com/
+
+## Usuarios DEMO
+* Alumno:
+  * ID: 10010
+  * Contraseña: Beni1
+  
+* Docente:
+  * ID: 20001
+  * Contraseña: Rosa01
+  
+## Mas informacion:
+Si deseas conocer mas del proyecto..
+http://wpjesusmaestro.herokuapp.com/
+
+
+
+
+
 
 
 
